@@ -164,7 +164,7 @@ body {
     border-radius: 16px;
     padding: 24px;
     max-width: 364px !important;
-    height: 360px;
+    /* height: 360px; */
     transition: all .3ms linear;
 }
 
@@ -305,7 +305,7 @@ body::-webkit-scrollbar {
     top: 72%;
     bottom: -10%;
     right: 0%;
-    left: 91%;
+    left: 89%;
 }
 
 body,
@@ -317,17 +317,28 @@ html {
     overflow-x: auto;
 }
 
-.absolute {
-    position: absolute;
-}
-
 .bg_img_globe {
     background-image: url(../images/bg_services.png);
     background-position: center;
 }
 
-@media (min-width:992px) {
-    .h-lg-1200 {
-        height: 1200px;
+.mt-30 {
+    margin-top: 30px;
+}
+
+.absolute {
+    position: absolute;
+    right: 0;
+    top: 20%;
+    z-index: 0;
+}
+
+@media (min-width:768px) {
+    .h-lg-1400 {
+        height: 1400px;
+    }
+
+    .mt-md-150 {
+        margin-top: 150px !important;
     }
 }
