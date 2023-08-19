@@ -276,6 +276,20 @@ body::-webkit-scrollbar {
     background: #02CDCF;
     border-radius: 12px;
     border: none;
+    transition: all .3s linear;
+}
+
+.btn-gs:hover {
+    box-shadow: 0px 4px 20px 0px #02cccfbd;
+}
+
+.icon {
+    transition: all .3s linear;
+    border-radius: 60%;
+}
+
+.icon:hover {
+    box-shadow: 0px 4px 20px 0px #02cccfbd;
 }
 
 .lh-52 {
@@ -295,6 +309,7 @@ body::-webkit-scrollbar {
     bottom: 14%;
     left: 0%;
     right: 89%;
+    z-index: 1;
 }
 
 .elippse_2::after {
