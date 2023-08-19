@@ -156,6 +156,7 @@ body {
 
 .box:hover .hide {
     display: none;
+
 }
 
 .box {
@@ -163,7 +164,8 @@ body {
     border-radius: 16px;
     padding: 24px;
     max-width: 364px !important;
-    height: 400px;
+    height: 360px;
+    transition: all .3ms linear;
 }
 
 .h-900 {
@@ -191,17 +193,17 @@ body {
 }
 
 .h-1500 {
-    height: 1500px;
+    height: 1200px;
+}
+
+.mw-517 {
+    max-width: 517px;
 }
 
 .pt-80 {
     padding-top: 80px;
 }
 
-.sticky {
-    position: sticky;
-    top: 0;
-}
 
 .h-810::-webkit-scrollbar {
     display: none;
@@ -304,4 +306,28 @@ body::-webkit-scrollbar {
     bottom: -10%;
     right: 0%;
     left: 91%;
+}
+
+body,
+html {
+    overflow-x: hidden;
+}
+
+.overflow_auto {
+    overflow-x: auto;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.bg_img_globe {
+    background-image: url(../images/bg_services.png);
+    background-position: center;
+}
+
+@media (min-width:992px) {
+    .h-lg-1200 {
+        height: 1200px;
+    }
 }
