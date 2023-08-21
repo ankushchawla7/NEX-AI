@@ -70,7 +70,7 @@ body {
 }
 
 .bor_btm {
-    border-bottom: 2px solid #FCFCFC;
+    border-bottom: 3px solid #fcfcfc56;
 }
 
 .pb-20 {
@@ -110,6 +110,20 @@ body {
     width: 100%;
     position: relative;
     padding-left: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: all .3s linear;
+}
+
+.timeline-container:hover {
+    background: #41414184;
+    border-radius: 16px;
+}
+
+.timeline-container:hover::after {
+    width: 30px;
+    height: 30px;
+    left: -10px;
 }
 
 .content {
@@ -127,6 +141,7 @@ body {
     top: 50%;
     border-radius: 50%;
     z-index: 1;
+    transition: all .3s linear;
 }
 
 .mt-60 {
@@ -166,6 +181,10 @@ body {
     max-width: 364px !important;
     /* height: 360px; */
     transition: all .3ms linear;
+}
+
+.box .hide {
+    transition: all .3s linear;
 }
 
 .h-900 {
@@ -356,4 +375,33 @@ html {
     .mt-md-150 {
         margin-top: 150px !important;
     }
+}
+
+
+/* for practice */
+
+.box_2 {
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.02);
+    padding: 72px 43px;
+}
+
+.mw-254 {
+    max-width: 254px;
+}
+
+.slick-track {
+    border-bottom-right-radius: 16px !important;
+    border-bottom-left-radius: 16px !important;
+    border-top-right-radius: 16px !important;
+    border-top-left-radius: 16px !important;
+}
+
+.slick-slide {
+    box-shadow: 0px 4px 20px 0px rgba(2, 205, 207, 0.16) !important;
+}
+
+.slick-list {
+    padding-top: 16px !important;
+    padding-bottom: 16px !important;
 }
