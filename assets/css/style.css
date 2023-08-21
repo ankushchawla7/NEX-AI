@@ -704,7 +704,7 @@ html {
     flex-shrink: 0;
     background: linear-gradient(180deg, #040404 0%, rgba(4, 4, 4, 0.00) 100%);
     position: absolute;
-    bottom: 0px;
+    bottom: -5%;
     opacity: 0.7;
     left: 0;
 }
