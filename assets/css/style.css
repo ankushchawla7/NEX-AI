@@ -264,6 +264,9 @@
     right: 22%;
     bottom: 40%;
 }
+.transition-300{
+    transition: all 300ms linear;
+}
 
 
 @media (max-width:992px) {

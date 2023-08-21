@@ -154,4 +154,7 @@
     .fs-md-2xl{
         font-size: var(--fs-2xl);
     }
+    .fs-md-xl{
+        font-size: var(--fs-xl);
+    }
 }
