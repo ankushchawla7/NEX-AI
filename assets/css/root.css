@@ -104,7 +104,9 @@
 .ff-recharge {
     font-family: recharge;
 }
-
+.ff-poppins{
+    font-family: poppins;
+}
 .hero-heading {
     color: var(--prime-white);
     font-family: Recharge;
