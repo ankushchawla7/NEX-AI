@@ -150,3 +150,8 @@
     font-weight: var(--fw-700);
     line-height: normal;
 }
+@media (min-width:768px) {
+    .fs-md-2xl{
+        font-size: var(--fs-2xl);
+    }
+}

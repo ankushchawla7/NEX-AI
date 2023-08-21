@@ -163,6 +163,107 @@
     left: 0;
 }
 
+.hero-left-ellipse {
+    width: 262px;
+    height: 262px;
+    flex-shrink: 0;
+    border-radius: 262px;
+    opacity: 0.3;
+    background: var(--green, #02CDCF);
+    filter: blur(196px);
+    top: 10%;
+    left: 6%;
+}
+
+.hero-right-ellipse {
+    width: 262px;
+    height: 262px;
+    flex-shrink: 0;
+    border-radius: 262px;
+    background: var(--green, #02CDCF);
+    filter: blur(213px);
+    right: 10%;
+    top: 40%;
+}
+
+.assistant-right-ellipse {
+    width: 228px;
+    height: 245px;
+    flex-shrink: 0;
+    /* fill: var(--green, #02CDCF); */
+    filter: blur(196px);
+    border-radius: 262px;
+    background: var(--green, #02CDCF);
+    right: 0;
+    top: 10%;
+    z-index: 1;
+}
+
+.assistant-left-ellipse {
+    width: 231px;
+    height: 231px;
+    flex-shrink: 0;
+    filter: blur(227px);
+    border-radius: 262px;
+    background: var(--green, #02CDCF);
+    top: 30%;
+    left: 20%;
+    z-index: 1;
+}
+
+.blockchain-left-ellipse {
+    width: 302px;
+    height: 262px;
+    flex-shrink: 0;
+    border-radius: 302px;
+    background: var(--green, #02CDCF);
+    filter: blur(212px);
+    top: 15%;
+    left: 0;
+}
+
+.blockchain-right-ellipse {
+    width: 302px;
+    height: 262px;
+    flex-shrink: 0;
+    border-radius: 302px;
+    background: var(--green, #02CDCF);
+    filter: blur(212px);
+    right: 0;
+    top: 10%;
+}
+
+.blockchain-bottom-right-ellipse {
+    width: 233px;
+    height: 233px;
+    flex-shrink: 0;
+    border-radius: 302px;
+    background: var(--green, #02CDCF);
+    filter: blur(212px);
+    right: 0;
+}
+
+.nex-ai-left-ellipse {
+    width: 228px;
+    height: 228px;
+    flex-shrink: 0;
+    border-radius: 302px;
+    background: var(--green, #02CDCF);
+    filter: blur(212px);
+    bottom: 10%;
+    left: 10%;
+}
+
+.nex-ai-right-ellipse {
+    width: 228px;
+    height: 228px;
+    flex-shrink: 0;
+    border-radius: 302px;
+    background: var(--green, #02CDCF);
+    filter: blur(212px);
+    right: 22%;
+    bottom: 40%;
+}
 
 
 @media (max-width:992px) {
@@ -177,6 +278,7 @@
         width: 100%;
         right: -100%;
         transition: all 600ms linear;
+        z-index: 5;
 
     }
 
@@ -185,12 +287,12 @@
     }
 
     .menubox {
-        z-index: 1;
+        z-index: 7;
     }
 
 }
 
-@media (max-width:1400px) {
+@media (max-width:992px) {
     .top-section {
         background-size: cover;
         background-position: right;
