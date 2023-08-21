@@ -269,7 +269,14 @@ html,body{
 .transition-300{
     transition: all 300ms linear;
 }
-
+.round-right-circle{
+        right: 0;
+            top: 0;
+}
+.round-left-circle{
+    left: 0;
+    bottom: 0;
+}
 
 @media (max-width:992px) {
     .nav-ul {
