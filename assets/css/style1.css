@@ -349,6 +349,7 @@ html {
 .bg_img_globe {
     background-image: url(../images/bg_services.png);
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 .mt-30 {
