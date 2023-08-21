@@ -179,10 +179,14 @@ body {
     padding: 24px;
     max-width: 364px !important;
     /* height: 360px; */
-    transition: all .3ms linear;
+    transition: all .3ms linear !important;
 }
 
 .box .hide {
+    transition: all .3s linear;
+}
+
+.hide {
     transition: all .3s linear;
 }
 
