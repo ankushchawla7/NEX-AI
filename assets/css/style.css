@@ -68,6 +68,26 @@ body {
     color: yellow !important;
 }
 
+.responsive .over-slider {
+    z-index: 2;
+}
+
+.responsive .slick-list {
+    overflow: visible;
+    padding: 0 20% 0 0;
+    position: relative;
+}
+
+.responsive .slick-list::after {
+    content: ' ';
+    position: absolute; 
+    top: 0px;
+    bottom: 0px;
+    width: 4000px;
+    right: 100%;
+    background-color:black;
+}
+
 .what-bg {
     background-image: url('../images/what-nex-bg-img.png');
     background-position: center;
@@ -686,7 +706,7 @@ html {
 .nav-hero::before {
     content: "";
     width: 300px;
-    height: 543px;
+    height: 515px;
     background-color: black;
     position: absolute;
     left: 15%;
