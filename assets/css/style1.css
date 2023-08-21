@@ -168,12 +168,12 @@ body {
     height: 810px;
 }
 
-.box:hover .hide {
+.box0:hover .hide {
     display: none;
 
 }
 
-.box {
+.box0 {
     background: #fff;
     border-radius: 16px;
     padding: 24px;
@@ -182,7 +182,7 @@ body {
     transition: all .3ms linear !important;
 }
 
-.box .hide {
+.box0 .hide {
     transition: all .3s linear;
 }
 
@@ -273,7 +273,7 @@ body::-webkit-scrollbar {
     position: relative;
 }
 
-.box_1 {
+.box0_1 {
     border-radius: 16px;
     background: rgba(255, 255, 255, 0.02);
     box-shadow: 0px 4px 20px 0px rgba(2, 205, 207, 0.16);
@@ -386,7 +386,7 @@ html {
 
 /* for practice */
 
-.box_2 {
+.box0_2 {
     border-radius: 16px;
     background: rgba(255, 255, 255, 0.02);
     padding: 72px 43px;
