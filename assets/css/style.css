@@ -613,8 +613,13 @@ body::-webkit-scrollbar {
     border-radius: 60%;
 }
 
-.icon:hover {
-    box-shadow: 0px 4px 20px 0px #02cccfbd;
+.icon:hover svg path {
+    /* box-shadow: 0px 4px 20px 0px #02cccfbd; */
+    /* fill: #02CDCF; */
+    stroke: #02CDCF;
+}
+.icon1:hover svg path {
+    fill: #02CDCF;
 }
 
 .lh-52 {
