@@ -373,6 +373,19 @@ html {
     top: 0;
 }
 
+.icon:hover svg path {
+    fill: #02CDCF;
+}
+
+.icon_2:hover svg path {
+    fill: #02CDCF;
+    stroke: #02CDCF;
+}
+
+.icon_3:hover svg path {
+    stroke: #02CDCF;
+}
+
 @media (min-width:768px) {
     .h-lg-1400 {
         height: 1400px;
